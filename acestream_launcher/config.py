@@ -12,7 +12,7 @@ class ConfigHandler(object):
   def __init__(self):
     self.isatty = sys.stdin.isatty()
     self.config = configparser.RawConfigParser({
-      'engine':  'acestreamengine --client-console',
+      'engine':  'acestream-engine --client-console',
       'host':    '127.0.0.1',
       'port':    '6878',
       'player':  'mpv',
