@@ -11,7 +11,7 @@ setuptools.setup(
   description='Open AceStream links with a Media Player of your choice',
   long_description=long_description,
   long_description_content_type='text/markdown',
-  url='https://github.com/jonian/acestream-launcher',
+  url='https://github.com/crstian19/acestream-launcher',
   packages=setuptools.find_packages(),
   data_files=[
     ('share/applications', ['acestream-launcher.desktop'])

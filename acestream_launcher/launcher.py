@@ -29,7 +29,7 @@ class StreamLauncher(object):
     )
     parser.add_argument(
       '-e', '--engine',
-      help='the engine command to use (default: acestreamengine --client-console)',
+      help='the engine command to use (default: acestrea-mengine --client-console)',
       default=config.get('engine')
     )
     parser.add_argument(
